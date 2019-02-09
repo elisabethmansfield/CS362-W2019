@@ -128,4 +128,23 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
 
+int drawCard(int player, struct gameState *state);
+
+int getCost(int cardNumber); 
+
+// CARD METHODS
+int adventurerCase(int drawntreasure, struct gameState *state, int currentPlayer, int temphand[], int z);
+int feastCase(struct gameState *state, int temphand[], int currentPlayer, int choice1);
+int mineCase(struct gameState *state, int currentPlayer, int choice1, int choice2, int handPos);
+int smithyCase(struct gameState *state, int currentPlayer, int handPos);
+int baronCase(struct gameState *state, int choice1, int currentPlayer);
+int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus);
+///
+
+int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag);
+
+int gainCard(int supplyPos, struct gameState *state, int toFlag, int player); 
+
+int updateCoins(int player, struct gameState *state, int bonus);
+
 #endif

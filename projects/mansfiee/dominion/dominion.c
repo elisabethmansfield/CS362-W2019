@@ -1334,20 +1334,20 @@ int updateCoins(int player, struct gameState *state, int bonus)
 
   //add coins for each Treasure card in player's hand
   for (i = 0; i < state->handCount[player]; i++)
-    {
-      if (state->hand[player][i] == copper)
-	{
-	  state->coins += 1;
-	}
-      else if (state->hand[player][i] == silver)
-	{
-	  state->coins += 2;
-	}
-      else if (state->hand[player][i] == gold)
-	{
-	  state->coins += 3;
-	}	
-    }	
+  {
+    if (state->hand[player][i] == copper)
+  	{
+  	  state->coins += 1;
+  	}
+    else if (state->hand[player][i] == silver)
+  	{
+  	  state->coins += 2;
+  	}
+    else if (state->hand[player][i] == gold)
+  	{
+  	  state->coins += 3;
+  	}	
+  }	
 
   //add bonus
   state->coins += bonus;
