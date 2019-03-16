@@ -1,0 +1,29 @@
+*** TESTING supplyCount(): ***
+TEST supply count of card: 'curse'	... FAIL | Neg_case
+TEST supply count of card: 'estate'	... FAIL | Neg_case
+TEST supply count of card: 'duchy'	... FAIL | Neg_case
+TEST supply count of card: 'province'	... FAIL | Neg_case
+TEST supply count of card: 'copper'	... FAIL | Neg_case
+TEST supply count of card: 'silver'	... FAIL | Neg_case
+TEST supply count of card: 'gold'	... FAIL | Neg_case
+TEST supply count of card: 'adventurer'	... FAIL | Neg_case
+TEST supply count of card: 'council_room'	... FAIL | Neg_case
+TEST supply count of card: 'feast'	... FAIL | Neg_case
+TEST supply count of card: 'gardens'	... FAIL | Neg_case
+TEST supply count of card: 'mine'	... FAIL | Neg_case
+TEST supply count of card: 'remodel'	... FAIL | Neg_case
+TEST supply count of card: 'smithy'	... FAIL | Neg_case
+TEST supply count of card: 'village'	... FAIL | Neg_case
+TEST supply count of card: 'baron'	... FAIL | Neg_case
+TEST supply count of card: 'great_hall'	... FAIL | Neg_case
+TEST supply count of card: 'minion'	... FAIL | Neg_case
+TEST supply count of card: 'steward'	... FAIL | Neg_case
+TEST supply count of card: 'tribute'	... FAIL | Neg_case
+TEST supply count of card: 'ambassador'	... FAIL | Neg_case
+TEST supply count of card: 'cutpurse'	... FAIL | Neg_case
+TEST supply count of card: 'embargo'	... FAIL | Neg_case
+TEST supply count of card: 'outpost'	... FAIL | Neg_case
+TEST supply count of card: 'salvager'	... FAIL | Neg_case
+TEST supply count of card: 'sea_hag'	... FAIL | Neg_case
+TEST supply count of card: 'treasure_map'	... FAIL | Neg_case
+*** TEST FAILURE DETECTED. ***

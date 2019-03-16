@@ -1,0 +1,29 @@
+*** TESTING getCost(): ***
+TEST get cost of card: 'curse'	... PASS
+TEST get cost of card: 'estate'	... PASS
+TEST get cost of card: 'duchy'	... PASS
+TEST get cost of card: 'province'	... PASS
+TEST get cost of card: 'copper'	... PASS
+TEST get cost of card: 'silver'	... PASS
+TEST get cost of card: 'gold'	... PASS
+TEST get cost of card: 'adventurer'	... PASS
+TEST get cost of card: 'council_room'	... PASS
+TEST get cost of card: 'feast'	... PASS
+TEST get cost of card: 'gardens'	... PASS
+TEST get cost of card: 'mine'	... PASS
+TEST get cost of card: 'remodel'	... PASS
+TEST get cost of card: 'smithy'	... PASS
+TEST get cost of card: 'village'	... PASS
+TEST get cost of card: 'baron'	... PASS
+TEST get cost of card: 'great_hall'	... PASS
+TEST get cost of card: 'minion'	... PASS
+TEST get cost of card: 'steward'	... PASS
+TEST get cost of card: 'tribute'	... PASS
+TEST get cost of card: 'ambassador'	... PASS
+TEST get cost of card: 'cutpurse'	... PASS
+TEST get cost of card: 'embargo'	... PASS
+TEST get cost of card: 'outpost'	... PASS
+TEST get cost of card: 'salvager'	... PASS
+TEST get cost of card: 'sea_hag'	... PASS
+TEST get cost of card: 'treasure_map'	... PASS
+*** ALL TESTS PASS! ***

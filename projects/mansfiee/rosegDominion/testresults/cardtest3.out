@@ -1,0 +1,6 @@
+*** TESTING card great_hall: ***
+TEST 1: Add 1 card to hand, discard 1 card	... FAIL
+TEST 2: Add 1 action to state	... FAIL
+TEST 3: No state change in other players	... PASS
+TEST 4: No state change in card piles	... PASS
+*** TEST FAILURE DETECTED. ***

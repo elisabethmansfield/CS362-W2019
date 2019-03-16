@@ -1,0 +1,6 @@
+*** TESTING card smithy: ***
+TEST 1: Draw 3 cards, discard 1	... PASS
+TEST 2: Draw cards from own deck	... PASS
+TEST 3: No state change in other players	... PASS
+TEST 4: No state change in card piles	... PASS
+*** ALL TESTS PASS! ***

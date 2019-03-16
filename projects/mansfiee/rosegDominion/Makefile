@@ -43,9 +43,9 @@ unittestresults:
 mytest:
 	make cleantests
 	make dominion.o
-	gcc -o cardtest1 -g cardtest1.c dominion.o rngs.o $(CFLAGS)
-	./cardtest1 &> /dev/null
-	gcov dominion.c
+	gcc -o cardtest4 -g cardtest4.c dominion.o rngs.o $(CFLAGS)
+	./cardtest4 &> testresults/cardtest4.out
+	# gcov -f dominion.c
 	# cat dominion.c.gcov 	
 
 unittests: unittest1.c unittest2.c unittest3.c unittest4.c dominion.o rngs.o

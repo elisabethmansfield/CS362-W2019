@@ -1,0 +1,6 @@
+*** TESTING handCard(): ***
+TEST get card for each hand from player: 0	... PASS (all hand)
+TEST get card for each hand from player: 1	... PASS (all hand)
+TEST get card for each hand from player: 2	... PASS (all hand)
+TEST get card for each hand from player: 3	... PASS (all hand)
+*** ALL TESTS PASS! ***
